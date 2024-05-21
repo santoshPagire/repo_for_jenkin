@@ -4,6 +4,7 @@ pipeline{
         stage("Stage 1"){
             steps{
                 echo "This is stage 1"
+                sh "printenv"
             }
         }
         stage("Stage 2"){
